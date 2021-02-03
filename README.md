@@ -10,6 +10,19 @@ Mobileiron makes distributing your apps to enterprise devices. By getting your a
  - [iOS]
  - [Android]
 
+## Example use
+```
+lane :mobileiron_upload do
+    mobileiron(
+        base_url: "https://localhost",
+        username: "TestUser",
+        password: "password",
+        artifact_path: "/Users/test/TestApp-0.1.0.ipa",
+        labels: "Test label1; TestLabel2"
+    )
+end
+```
+
 ## Run tests for this plugin
 
 To run both the tests, and code style validation, run
