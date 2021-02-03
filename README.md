@@ -2,8 +2,9 @@
 
 # ![Fastlane Mobileiron Plugin](icon.png) Fastlane Mobileiron Plugin
 
-Mobileiron makes distributing your apps to enterprise devices. By getting your apps onto users' devices quickly, you can get feedback early and often. To learn more about Mobileiron, go [here](https://www.mobileiron.com/en/products/uem).
+[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-mobileiron)
 
+Mobileiron makes distributing your apps to enterprise devices. By getting your apps onto users' devices quickly, you can get feedback early and often. To learn more about Mobileiron, go [here](https://www.mobileiron.com/en/products/uem).
 
 ## Supported Platform
  - [iOS]

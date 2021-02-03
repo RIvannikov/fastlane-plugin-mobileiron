@@ -10,12 +10,12 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Roman Ivannikov']
   spec.email         = ['ivannikov.rv@google.com']
 
-  spec.summary       = 'Release your beta builds to Mobileiron In-Hause instance. https://www.mobileiron.com'
-  spec.homepage      = "https://github.com/fastlane/fastlane-plugin-mobileiron"
-  spec.license       = "MIT"
+  spec.summary       = 'Release your builds to Mobileiron In-Hause instance. https://www.mobileiron.com'
+  spec.homepage      = "https://github.com/RIvannikov/fastlane-plugin-mobileiron"
+  spec.licenses       = ['MIT']
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
+  spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE.txt)
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
